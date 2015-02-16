@@ -1,0 +1,84 @@
+<!--通用头部-->
+<!--顶部开始-->
+<div class="Header_Box clearfix">
+    <div class="Header cWidth">
+        <div class="Logo fl">
+            <a href="__WEB__" title="后备网开源"><img alt="" src="__STATIC__/images/logo_1.png" /></a>
+        </div>
+        <div class="SearchCnt fl">
+            <form action="#" method="get">
+                <input name="content" class="Txt fl" type="text" />
+                <input name="act" type="hidden" value="search" />
+                <input name="type" type="hidden" value="文章" />
+
+                <input class="Btn fl" type="submit" value="搜索" />
+            </form>
+        </div>
+        <div class="HeaderCnt fr">
+            <ul>
+                <li>
+                    <div class="UseImg fl">
+                        <a href="#"><img style="width: 29px; height: 29px;" alt="" src="__STATIC__/images/avatar.gif" /></a>
+                    </div>
+                    <div class="UseName fl">
+                        <a href="#" target="_blank"></a>
+                    </div></li>
+                <li><a  href="#">我的地盘</a> </li>
+                <li><a href="#">注销</a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--顶部结束-->
+<div class="h_10"></div>
+<div class="NavBox cWidth clearfix">
+    <!--导航-->
+    <div class="Nav">
+        <ul>
+            <li <if value="!isset($_GET['cid'])">class="nav-current"</if>>
+            <a href="__WEB__">首页</a>
+            </li>
+            <channel type="top">
+                <li <if value="$_GET['cid'] eq $field.cid || Data::isChild(S(category),$_GET['cid'],$field['cid'])">class="nav-current"</if>>
+                {$field.catlink}
+                </li>
+            </channel>
+        </ul>
+    </div>
+    <!--/导航-->
+</div>
+<!--以上为统一头部-->
+<!--
+<div id="header">
+    <div class="header-warp">
+        <div id="header-right">
+            <if value="IS_LOGIN">
+                <div class="dropdown">
+                    <div id="dropdownMenu1" data-toggle="dropdown">
+                        <img src="{$hd.session.user.icon}" class="user" /> {$hd.session.user.username}
+                        <span class="caret"></span>
+                    </div>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="__ROOT__/index.php?m=Member&c=Content&a=content&mid=1">文章管理</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="__ROOT__/index.php?m=Member&c=Account&a=personal">个人资料</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="__ROOT__/index.php?m=Member&c=Login&a=out">退出</a></li>
+                    </ul>
+                </div>
+            <else/>
+                <a href="{|U:'Member/Login/login'}" class="bt-primary">登录</a>
+                <a href="{|U:'Member/Login/reg'}" class="bt-default">注册</a>
+            </if>
+        </div>
+        <a id="logo" href="__WEB__" title="后盾网开源"></a>
+        <ul id="header-nav">
+            <li <if value="!isset($_GET['cid'])">class="nav-current"</if>>
+                <a href="__WEB__">首页</a>
+            </li>
+            <channel type="top">
+                <li <if value="$_GET['cid'] eq $field.cid || Data::isChild(S(category),$_GET['cid'],$field['cid'])">class="nav-current"</if>>
+                {$field.catlink}
+                </li>
+            </channel>
+        </ul>
+    </div>
+</div>-->
