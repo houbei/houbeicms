@@ -264,11 +264,12 @@
             本文标题：<?php echo $hdcms['title'];?><br>
             本文地址：<a href="http://127.0.0.1/houbeicms/index.php?m=Index&c=Content&a=index&cid=4&aid=1">http://127.0.0.1/houbeicms/index.php?m=Index&c=Content&a=index&cid=4&aid=1</a><br>
              </div>
-            <!--评论Start-->
-            <iframe frameborder="0" id="comment" scrolling="no" style="padding: 0px;margin: 0px;" width="100%"
-                    src="http://127.0.0.1/houbeicms/index.php?g=Addons&m=Comment&c=Comment&mid=<?php echo $hd['get']['mid'];?>&cid=<?php echo $hd['get']['cid'];?>&aid=<?php echo $hd['get']['aid'];?>"></iframe>
-            <!--评论End-->
+
         </div>
+        <!--评论Start-->
+        <iframe frameborder="0" id="comment" scrolling="no" style="padding: 0px;margin: 0px;" width="100%"
+                src="http://127.0.0.1/houbeicms/index.php?g=Addons&m=Comment&c=Comment&mid=<?php echo $hd['get']['mid'];?>&cid=<?php echo $hd['get']['cid'];?>&aid=<?php echo $hd['get']['aid'];?>"></iframe>
+        <!--评论End-->
     </div>
     <div class="menu">
         <div class="send">

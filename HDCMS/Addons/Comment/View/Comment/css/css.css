@@ -1,5 +1,6 @@
 div#comment {
   height: auto;
+    margin-top: 15px;
   overflow: hidden;
   color: #666666 !important;
   font-size: 12px;
