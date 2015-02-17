@@ -8,7 +8,10 @@ div#comment {
 div#comment div.comment-total {
   font-size: 16px !important;
   border-bottom: solid 1px #DDDDDD;
-  padding: 10px 10px;
+  background: none repeat scroll 0% 0% #40AA53;
+  color: #FFF;
+  line-height: 24px;
+  padding: 5px 5px;
 }
 div#comment div.comment-list {
   padding: 15px 0px;

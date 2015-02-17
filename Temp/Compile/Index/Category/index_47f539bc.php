@@ -4,26 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <title><?php echo $hd['config']['WEBNAME'];?></title>
-    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/Static/hdjs/hdjs.css"/>
+    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/hdjs/hdjs.css"/>
     <link type="text/css" rel="stylesheet" href="Template/default/css/common.css"/>
-    <link href="http://127.0.0.1/Static/css/header.css" rel="stylesheet" type="text/css" />
-    <link href="http://127.0.0.1/Static/css/index_style.css" rel="stylesheet" type="text/css" />
+    <link href="http://127.0.0.1/houbeicms/Static/css/header.css" rel="stylesheet" type="text/css" />
+    <link href="http://127.0.0.1/houbeicms/Static/css/index_style.css" rel="stylesheet" type="text/css" />
     <link type="text/css" rel="stylesheet" href="Template/default/css/download.css"/>
     <!-- 新 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="http://127.0.0.1/Static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/bootstrap/css/bootstrap.min.css">
 
     <!-- 可选的Bootstrap主题文件（一般不用引入） -->
-    <link rel="stylesheet" href="http://127.0.0.1/Static/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/bootstrap/css/bootstrap-theme.min.css">
     <!--[if lt IE 9]>
     <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <link type="text/css" rel="stylesheet" href="Template/default/css/ie.css"/>
     <![endif]-->
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="http://127.0.0.1/Static/jquery-1.11.1.min.js"></script>
+    <script src="http://127.0.0.1/houbeicms/Static/jquery-1.11.1.min.js"></script>
 
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="http://127.0.0.1/Static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://127.0.0.1/houbeicms/Static/bootstrap/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -33,7 +33,7 @@
 <div class="Header_Box clearfix">
     <div class="Header cWidth">
         <div class="Logo fl">
-            <a href="http://127.0.0.1/index.php" title="后备网开源"><img alt="" src="http://127.0.0.1/Static/images/logo_1.png" /></a>
+            <a href="http://127.0.0.1/houbeicms/index.php" title="后备网开源"><img alt="" src="http://127.0.0.1/houbeicms/Static/images/logo_1.png" /></a>
         </div>
         <div class="SearchCnt fl">
             <form action="#" method="get">
@@ -48,7 +48,7 @@
             <ul>
                 <li>
                     <div class="UseImg fl">
-                        <a href="#"><img style="width: 29px; height: 29px;" alt="" src="http://127.0.0.1/Static/images/avatar.gif" /></a>
+                        <a href="#"><img style="width: 29px; height: 29px;" alt="" src="http://127.0.0.1/houbeicms/Static/images/avatar.gif" /></a>
                     </div>
                     <div class="UseName fl">
                         <a href="#" target="_blank"></a>
@@ -66,7 +66,7 @@
     <div class="Nav">
         <ul>
             <li     <?php if(!isset($_GET['cid'])){ ?>class="nav-current"<?php } ?>>
-            <a href="http://127.0.0.1/index.php">首页</a>
+            <a href="http://127.0.0.1/houbeicms/index.php">首页</a>
             </li>
                     <?php
         $type=strtolower(trim('top'));
@@ -110,7 +110,7 @@
                 }else{
                     $field['catlink']='<a href="'.$field['caturl'].'">'.$field['catname'].'</a>';
                 }
-                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1'.$field['catimage'];
+                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1/houbeicms'.$field['catimage'];
             ?>
                 <li     <?php if($_GET['cid']==$field['cid'] || Data::isChild(S(category),$_GET['cid'],$field['cid'])){ ?>class="nav-current"<?php } ?>>
                 <?php echo $field['catlink'];?>
@@ -134,9 +134,9 @@
                         <span class="caret"></span>
                     </div>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/index.php?m=Member&c=Content&a=content&mid=1">文章管理</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/index.php?m=Member&c=Account&a=personal">个人资料</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/index.php?m=Member&c=Login&a=out">退出</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Content&a=content&mid=1">文章管理</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Account&a=personal">个人资料</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Login&a=out">退出</a></li>
                     </ul>
                 </div>
             <?php }else{ ?>
@@ -144,10 +144,10 @@
                 <a href="<?php echo U('Member/Login/reg');?>" class="bt-default">注册</a>
             <?php } ?>
         </div>
-        <a id="logo" href="http://127.0.0.1/index.php" title="后盾网开源"></a>
+        <a id="logo" href="http://127.0.0.1/houbeicms/index.php" title="后盾网开源"></a>
         <ul id="header-nav">
             <li     <?php if(!isset($_GET['cid'])){ ?>class="nav-current"<?php } ?>>
-                <a href="http://127.0.0.1/index.php">首页</a>
+                <a href="http://127.0.0.1/houbeicms/index.php">首页</a>
             </li>
                     <?php
         $type=strtolower(trim('top'));
@@ -191,7 +191,7 @@
                 }else{
                     $field['catlink']='<a href="'.$field['caturl'].'">'.$field['catname'].'</a>';
                 }
-                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1'.$field['catimage'];
+                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1/houbeicms'.$field['catimage'];
             ?>
                 <li     <?php if($_GET['cid']==$field['cid'] || Data::isChild(S(category),$_GET['cid'],$field['cid'])){ ?>class="nav-current"<?php } ?>>
                 <?php echo $field['catlink'];?>
@@ -292,7 +292,7 @@
             <div class="col-md-12 text-center">
                 <a href="#" target="_blank">高端PHP培训</a>|
                 <a href="#" target="_blank">用户中心</a>|
-                <a href="http://127.0.0.1/index.php?g=Addon&m=Sitemap&c=Index&a=index">网站地图</a>
+                <a href="http://127.0.0.1/houbeicms/index.php?g=Addon&m=Sitemap&c=Index&a=index">网站地图</a>
                 <br>
                 © 2012 - 2014 hdphp.com. All Rights Reserved (京ICP备12048441号-1)
             </div>

@@ -19,7 +19,7 @@
 
 <div id="comment">
     <div class="comment-total">
-        <span id="total"><?php echo $count;?></span> 个回复
+        网友评论，共<span id="total"><?php echo $count;?></span>条
     </div>
             <?php
         //初始化

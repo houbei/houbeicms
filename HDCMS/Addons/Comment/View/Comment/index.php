@@ -18,7 +18,7 @@
 
 <div id="comment">
     <div class="comment-total">
-        <span id="total">{$count}</span> 个回复
+        网友评论，共<span id="total">{$count}</span>条
     </div>
     <list from="$data" name="$d">
         <div class="comment-list" id="c-{$d.comment_id}">
