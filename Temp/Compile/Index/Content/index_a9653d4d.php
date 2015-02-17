@@ -4,47 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <title><?php echo $hd['config']['WEBNAME'];?></title>
-    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/Static/hdjs/hdjs.css"/>
+    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/hdjs/hdjs.css"/>
     <link type="text/css" rel="stylesheet" href="Template/default/css/common.css"/>
-    <link href="http://127.0.0.1/Static/css/header.css" rel="stylesheet" type="text/css" />
+    <link href="http://127.0.0.1/houbeicms/Static/css/header.css" rel="stylesheet" type="text/css" />
     <link type="text/css" rel="stylesheet" href="Template/default/css/article_default.css"/>
     <!-- 新 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="http://127.0.0.1/Static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/bootstrap/css/bootstrap.min.css">
 
     <!-- 可选的Bootstrap主题文件（一般不用引入） -->
-    <link rel="stylesheet" href="http://127.0.0.1/Static/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/bootstrap/css/bootstrap-theme.min.css">
     <!--[if lt IE 9]>
     <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="http://127.0.0.1/Static/jquery-1.11.1.min.js"></script>
+    <script src="http://127.0.0.1/houbeicms/Static/jquery-1.11.1.min.js"></script>
 
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="http://127.0.0.1/Static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://127.0.0.1/houbeicms/Static/bootstrap/js/bootstrap.min.js"></script>
     <!--代码高亮-->
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shCore.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushBash.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushCSharp.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushCss.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushDelphi.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushGroovy.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushJava.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushJScript.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushPython.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushRuby.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushScala.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushSql.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushVb.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushXml.js"></script>
-    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/Static/SyntaxHighlighter/styles/shCore.css">
-    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/Static/SyntaxHighlighter/styles/shThemeDefault.css">
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shCore.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushCSharp.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushCss.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushDelphi.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushGroovy.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushJScript.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushRuby.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushScala.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushSql.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushVb.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/styles/shCore.css">
+    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/styles/shThemeDefault.css">
     <script type="text/javascript">
-        SyntaxHighlighter.config.clipboardSwf = 'http://127.0.0.1/Static/SyntaxHighlighter/scripts/clipboard.swf';
+        SyntaxHighlighter.config.clipboardSwf = 'http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/clipboard.swf';
         SyntaxHighlighter.all();
     </script>
 </head>
@@ -55,7 +55,7 @@
 <div class="Header_Box clearfix">
     <div class="Header cWidth">
         <div class="Logo fl">
-            <a href="http://127.0.0.1/index.php" title="后备网开源"><img alt="" src="http://127.0.0.1/Static/images/logo_1.png" /></a>
+            <a href="http://127.0.0.1/houbeicms/index.php" title="后备网开源"><img alt="" src="http://127.0.0.1/houbeicms/Static/images/logo_1.png" /></a>
         </div>
         <div class="SearchCnt fl">
             <form action="#" method="get">
@@ -70,7 +70,7 @@
             <ul>
                 <li>
                     <div class="UseImg fl">
-                        <a href="#"><img style="width: 29px; height: 29px;" alt="" src="http://127.0.0.1/Static/images/avatar.gif" /></a>
+                        <a href="#"><img style="width: 29px; height: 29px;" alt="" src="http://127.0.0.1/houbeicms/Static/images/avatar.gif" /></a>
                     </div>
                     <div class="UseName fl">
                         <a href="#" target="_blank"></a>
@@ -88,7 +88,7 @@
     <div class="Nav">
         <ul>
             <li     <?php if(!isset($_GET['cid'])){ ?>class="nav-current"<?php } ?>>
-            <a href="http://127.0.0.1/index.php">首页</a>
+            <a href="http://127.0.0.1/houbeicms/index.php">首页</a>
             </li>
                     <?php
         $type=strtolower(trim('top'));
@@ -132,7 +132,7 @@
                 }else{
                     $field['catlink']='<a href="'.$field['caturl'].'">'.$field['catname'].'</a>';
                 }
-                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1'.$field['catimage'];
+                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1/houbeicms'.$field['catimage'];
             ?>
                 <li     <?php if($_GET['cid']==$field['cid'] || Data::isChild(S(category),$_GET['cid'],$field['cid'])){ ?>class="nav-current"<?php } ?>>
                 <?php echo $field['catlink'];?>
@@ -156,9 +156,9 @@
                         <span class="caret"></span>
                     </div>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/index.php?m=Member&c=Content&a=content&mid=1">文章管理</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/index.php?m=Member&c=Account&a=personal">个人资料</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/index.php?m=Member&c=Login&a=out">退出</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Content&a=content&mid=1">文章管理</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Account&a=personal">个人资料</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Login&a=out">退出</a></li>
                     </ul>
                 </div>
             <?php }else{ ?>
@@ -166,10 +166,10 @@
                 <a href="<?php echo U('Member/Login/reg');?>" class="bt-default">注册</a>
             <?php } ?>
         </div>
-        <a id="logo" href="http://127.0.0.1/index.php" title="后盾网开源"></a>
+        <a id="logo" href="http://127.0.0.1/houbeicms/index.php" title="后盾网开源"></a>
         <ul id="header-nav">
             <li     <?php if(!isset($_GET['cid'])){ ?>class="nav-current"<?php } ?>>
-                <a href="http://127.0.0.1/index.php">首页</a>
+                <a href="http://127.0.0.1/houbeicms/index.php">首页</a>
             </li>
                     <?php
         $type=strtolower(trim('top'));
@@ -213,7 +213,7 @@
                 }else{
                     $field['catlink']='<a href="'.$field['caturl'].'">'.$field['catname'].'</a>';
                 }
-                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1'.$field['catimage'];
+                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1/houbeicms'.$field['catimage'];
             ?>
                 <li     <?php if($_GET['cid']==$field['cid'] || Data::isChild(S(category),$_GET['cid'],$field['cid'])){ ?>class="nav-current"<?php } ?>>
                 <?php echo $field['catlink'];?>
@@ -232,7 +232,7 @@
             欢迎QQ加群：<?php echo $hd['config']['QQ_GROUP'];?> 进行使用交流！
         </div>
         <div class="search">
-            <form action="http://127.0.0.1/index.php?g=Addons&m=Search" method="post">
+            <form action="http://127.0.0.1/houbeicms/index.php?g=Addons&m=Search" method="post">
                 <input type="text" name="wd" placeholder="输入搜索内容..."/>
                 <input type="submit" value="搜索"/>
             </form>
@@ -246,7 +246,7 @@
             <?php } ?>
         </div>
         <div class="info">
-            作者：<a href="http://127.0.0.1/index.php?m=Member&c=Space&a=index&uid=<?php echo $hdcms['uid'];?>"><?php echo $hdcms['username'];?></a>
+            作者：<a href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Space&a=index&uid=<?php echo $hdcms['uid'];?>"><?php echo $hdcms['username'];?></a>
             发布日期：<?php echo date('Y-m-d',$hdcms['addtime']);?>
             栏目：<a href="<?php echo $hdcms['caturl'];?>" class="category"><?php echo $hdcms['catname'];?></a>
             点击数：
@@ -259,13 +259,13 @@
             <?php echo $hdcms['content'];?>
             <!--评论Start-->
             <iframe frameborder="0" id="comment" scrolling="no" style="padding: 0px;margin: 0px;" width="100%"
-                    src="http://127.0.0.1/index.php?g=Addons&m=Comment&c=Comment&mid=<?php echo $hd['get']['mid'];?>&cid=<?php echo $hd['get']['cid'];?>&aid=<?php echo $hd['get']['aid'];?>"></iframe>
+                    src="http://127.0.0.1/houbeicms/index.php?g=Addons&m=Comment&c=Comment&mid=<?php echo $hd['get']['mid'];?>&cid=<?php echo $hd['get']['cid'];?>&aid=<?php echo $hd['get']['aid'];?>"></iframe>
             <!--评论End-->
         </div>
     </div>
     <div class="menu">
         <div class="send">
-            <a href="http://127.0.0.1/index.php?m=Member&c=Content&a=add&mid=1&cid=<?php echo $hd['get']['cid'];?>">发表文章</a>
+            <a href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Content&a=add&mid=1&cid=<?php echo $hd['get']['cid'];?>">发表文章</a>
         </div>
         <dl>
             <dt>文章管理</dt>
@@ -311,7 +311,7 @@
                 }else{
                     $field['catlink']='<a href="'.$field['caturl'].'">'.$field['catname'].'</a>';
                 }
-                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1'.$field['catimage'];
+                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1/houbeicms'.$field['catimage'];
             ?>
                 <dd><a href="<?php echo $field['caturl'];?>" class="<?php echo $field['class'];?>"><?php echo $field['catname'];?></a></dd>
             <?php endforeach;}
@@ -331,7 +331,7 @@
             <div class="col-md-12 text-center">
                 <a href="#" target="_blank">高端PHP培训</a>|
                 <a href="#" target="_blank">用户中心</a>|
-                <a href="http://127.0.0.1/index.php?g=Addon&m=Sitemap&c=Index&a=index">网站地图</a>
+                <a href="http://127.0.0.1/houbeicms/index.php?g=Addon&m=Sitemap&c=Index&a=index">网站地图</a>
                 <br>
                 © 2012 - 2014 hdphp.com. All Rights Reserved (京ICP备12048441号-1)
             </div>

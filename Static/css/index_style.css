@@ -1,16 +1,4 @@
-﻿.clearfix::before {
-	display: table; content: "";
-}
-.clearfix::after {
-	display: table; content: "";
-}
-.clearfix::after {
-	clear: both;
-}
-.clearfix {
-
-}
-.BigBg {
+﻿.BigBg {
 	background: url("../../static/images/BigBgN_2.jpg") no-repeat center; width: 100%; height: 550px; position: absolute; z-index: -1;
 }
 .BigBgTxtBox {

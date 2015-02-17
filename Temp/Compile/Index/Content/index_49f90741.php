@@ -4,7 +4,7 @@
 <div class="Header_Box clearfix">
     <div class="Header cWidth">
         <div class="Logo fl">
-            <a href="http://127.0.0.1/index.php" title="后备网开源"><img alt="" src="http://127.0.0.1/Static/images/logo_1.png" /></a>
+            <a href="http://127.0.0.1/houbeicms/index.php" title="后备网开源"><img alt="" src="http://127.0.0.1/houbeicms/Static/images/logo_1.png" /></a>
         </div>
         <div class="SearchCnt fl">
             <form action="#" method="get">
@@ -19,7 +19,7 @@
             <ul>
                 <li>
                     <div class="UseImg fl">
-                        <a href="#"><img style="width: 29px; height: 29px;" alt="" src="http://127.0.0.1/Static/images/avatar.gif" /></a>
+                        <a href="#"><img style="width: 29px; height: 29px;" alt="" src="http://127.0.0.1/houbeicms/Static/images/avatar.gif" /></a>
                     </div>
                     <div class="UseName fl">
                         <a href="#" target="_blank"></a>
@@ -37,7 +37,7 @@
     <div class="Nav">
         <ul>
             <li     <?php if(!isset($_GET['cid'])){ ?>class="nav-current"<?php } ?>>
-            <a href="http://127.0.0.1/index.php">首页</a>
+            <a href="http://127.0.0.1/houbeicms/index.php">首页</a>
             </li>
                     <?php
         $type=strtolower(trim('top'));
@@ -81,7 +81,7 @@
                 }else{
                     $field['catlink']='<a href="'.$field['caturl'].'">'.$field['catname'].'</a>';
                 }
-                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1'.$field['catimage'];
+                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1/houbeicms'.$field['catimage'];
             ?>
                 <li     <?php if($_GET['cid']==$field['cid'] || Data::isChild(S(category),$_GET['cid'],$field['cid'])){ ?>class="nav-current"<?php } ?>>
                 <?php echo $field['catlink'];?>
@@ -105,9 +105,9 @@
                         <span class="caret"></span>
                     </div>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/index.php?m=Member&c=Content&a=content&mid=1">文章管理</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/index.php?m=Member&c=Account&a=personal">个人资料</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/index.php?m=Member&c=Login&a=out">退出</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Content&a=content&mid=1">文章管理</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Account&a=personal">个人资料</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Login&a=out">退出</a></li>
                     </ul>
                 </div>
             <?php }else{ ?>
@@ -115,10 +115,10 @@
                 <a href="<?php echo U('Member/Login/reg');?>" class="bt-default">注册</a>
             <?php } ?>
         </div>
-        <a id="logo" href="http://127.0.0.1/index.php" title="后盾网开源"></a>
+        <a id="logo" href="http://127.0.0.1/houbeicms/index.php" title="后盾网开源"></a>
         <ul id="header-nav">
             <li     <?php if(!isset($_GET['cid'])){ ?>class="nav-current"<?php } ?>>
-                <a href="http://127.0.0.1/index.php">首页</a>
+                <a href="http://127.0.0.1/houbeicms/index.php">首页</a>
             </li>
                     <?php
         $type=strtolower(trim('top'));
@@ -162,7 +162,7 @@
                 }else{
                     $field['catlink']='<a href="'.$field['caturl'].'">'.$field['catname'].'</a>';
                 }
-                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1'.$field['catimage'];
+                $field['catimage']=empty($field['catimage'])?'':'http://127.0.0.1/houbeicms'.$field['catimage'];
             ?>
                 <li     <?php if($_GET['cid']==$field['cid'] || Data::isChild(S(category),$_GET['cid'],$field['cid'])){ ?>class="nav-current"<?php } ?>>
                 <?php echo $field['catlink'];?>

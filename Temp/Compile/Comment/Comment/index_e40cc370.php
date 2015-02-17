@@ -1,21 +1,21 @@
 <?php if(!defined('HDPHP_PATH'))exit;C('SHOW_NOTICE',FALSE);?>
 <script>
-    var root="http://127.0.0.1";
+    var root="http://127.0.0.1/houbeicms";
 </script>
-<script src="http://127.0.0.1/Static/jquery-1.11.1.min.js"></script>
+<script src="http://127.0.0.1/houbeicms/Static/jquery-1.11.1.min.js"></script>
 <!--代码高亮-->
-<script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shCore.js"></script>
-<script type="text/javascript" src="http://127.0.0.1/Static/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
-<link type="text/css" rel="stylesheet" href="http://127.0.0.1/Static/SyntaxHighlighter/styles/shCore.css">
-<link type="text/css" rel="stylesheet" href="http://127.0.0.1/Static/SyntaxHighlighter/styles/shThemeDefault.css">
+<script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/styles/shCore.css">
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/styles/shThemeDefault.css">
 <script type="text/javascript">
-    SyntaxHighlighter.config.clipboardSwf = 'http://127.0.0.1/Static/SyntaxHighlighter/scripts/clipboard.swf';
+    SyntaxHighlighter.config.clipboardSwf = 'http://127.0.0.1/houbeicms/Static/SyntaxHighlighter/scripts/clipboard.swf';
     SyntaxHighlighter.all();
 </script>
-<link type="text/css" rel="stylesheet" href="http://127.0.0.1/Static/hdjs/hdjs.css"/>
-<script type="text/javascript" src="http://127.0.0.1/Static/hdjs/hdjs.min.js"></script>
-<script type="text/javascript" src="http://127.0.0.1/HDCMS/Addons/Comment/View/Comment/js/comment.js"></script>
-<link type="text/css" rel="stylesheet" href="http://127.0.0.1/HDCMS/Addons/Comment/View/Comment/css/css.css"/>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/hdjs/hdjs.css"/>
+<script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/hdjs/hdjs.min.js"></script>
+<script type="text/javascript" src="http://127.0.0.1/houbeicms/HDCMS/Addons/Comment/View/Comment/js/comment.js"></script>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/HDCMS/Addons/Comment/View/Comment/css/css.css"/>
 
 <div id="comment">
     <div class="comment-total">
@@ -193,9 +193,9 @@
                     </div>
                 </form>
         <?php } else { ?>
-            <p align="center">要回复请先 <a href="http://127.0.0.1/index.php?m=Member&c=Login&a=login" target="_top">
+            <p align="center">要回复请先 <a href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Login&a=login" target="_top">
                     登录</a> 或
-                <a href="http://127.0.0.1/index.php?m=Member&c=Login&a=reg" target="_top">注册
+                <a href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Login&a=reg" target="_top">注册
                 </a>
             </p>
         <?php } ?>
