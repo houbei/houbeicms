@@ -51,11 +51,14 @@
                         <a href="#"><img style="width: 29px; height: 29px;" alt="" src="<?php echo $hd['session']['user']['icon'];?>" /></a>
                     </div>
                     <div class="UseName fl">
-                        <a href="#" target="_blank"></a>
+                        <a href="#" target="_blank"><?php echo $hd['session']['user']['username'];?></a>
                     </div>
                 </li>
-                <li><a  href="#">我的地盘</a> </li>
-                <li><a href="#">注销</a> </li>
+                    <li><a  href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Index&a=index">会员中心</a> </li>
+                    <li><a href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Login&a=out">注销</a> </li>
+                <?php }else{ ?>
+                    <a href="<?php echo U('Member/Login/login');?>" class="bt-primary top28">登录</a>
+                    <a href="<?php echo U('Member/Login/reg');?>" class="bt-default top28">注册</a>
                 <?php } ?>
             </ul>
         </div>

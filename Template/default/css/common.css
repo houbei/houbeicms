@@ -4,7 +4,10 @@
   font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 div.container {
-  width: 1000px;
+  width: 1000px;margin: 0 auto;
+}
+div.container .row{
+    text-align: center;
 }
 ul,
 ol {
@@ -117,13 +120,18 @@ div#header div.header-warp div#header-right #dropdownMenu1 img {
 
 }*/
 div#footer {
+    bottom:0;
   height: 100px;
+    margin-top: 15px;
   background-color: #515666;
-    margin-top: 20px;
   margin-bottom: 0px;
   color: #A8ABB3;
   font-size: 12px;
   padding-top: 20px;
+    _bottom:auto;
+    _width:100%;
+    _position:absolute;
+    overflow: hidden;
 }
 div#footer a {
   font-size: 14px;

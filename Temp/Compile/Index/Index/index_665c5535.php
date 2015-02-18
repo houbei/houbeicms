@@ -1321,23 +1321,27 @@
        </div> 
       </div> -->
      </div> 
-    </div> 
-     <div class="h_20"></div> 
     </div>
-    <div class="h_20"></div> 
-<div style="margin-top: 280px;background: #123;"></div>
-  <div class="BotCntBox"> 
-   <div class="BotCnt cWidth"> 
-    <div class="BotNav clearfix"> 
-     <ul class="fl"> 
-     </ul> 
-    </div> 
-    <div class="copyRight clearfix"> 
-     <div class="copyRightText"> 
-      <p>Copyright &copy 2015  www.houbei.cc, All Rights Reserved 后备网 版权所有 黔ICP备15000001号</p> 
-     </div> 
-    </div> 
-   </div> 
-  </div>  
+     <div class="h_15"></div>
+    </div>
+
+  <div class="BotCntBox" style="float: left;text-align: center;">
+    <img style="width:100%;height: 80px;" src="http://127.0.0.1/houbeicms/Static/images/ad.png">
+  </div>
+  </div>
+      <?php if(!defined('HDPHP_PATH'))exit;C('SHOW_NOTICE',FALSE);?>
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="#" target="_blank">使用后备前必读</a>|
+                <a href="#" target="_blank">用户中心</a>|
+                <a href="http://127.0.0.1/houbeicms/index.php?g=Addon&m=Sitemap&c=Index&a=index">网站地图</a>
+                <br>
+                Copyright &copy 2015  www.houbei.cc, All Rights Reserved 后备网 版权所有 黔ICP备15000001号
+            </div>
+        </div>
+    </div>
+</div>
  </body>
 </html>

@@ -12,7 +12,7 @@
 HOST = 'http://127.0.0.1';
 ROOT = 'http://127.0.0.1/houbeicms';
 WEB = 'http://127.0.0.1/houbeicms/index.php';
-URL = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Index&a=index';
+URL = 'http://127.0.0.1/houbeicms/index.php?m=admin';
 APP = 'http://127.0.0.1/houbeicms/HDCMS';
 COMMON = 'http://127.0.0.1/houbeicms/HDCMS/Common';
 HDPHP = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP';
@@ -26,7 +26,6 @@ HDPHP_TPL = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Lib/Tpl';
 VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View';
 PUBLIC = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public';
 CONTROLLER_VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Index';
-HISTORY = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Login&a=login';
 </script>
     <link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public/common.css"/>
 </head>

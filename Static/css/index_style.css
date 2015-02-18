@@ -287,7 +287,7 @@
 	background: rgb(255, 122, 77); color: rgb(255, 255, 255);
 }
 .BotCntBox {
-	background-color: #fff; width: 1000px; height: 80px;
+	background-color: #fff; width: 1002px; height: 80px;
 }
 .BotNav {
 	margin: 0px auto; width: 1000px; text-align: center; padding-top: 10px;
@@ -497,6 +497,7 @@ body a:hover {
 .h_10 {
 	height: 10px;
 }
+.h_15{height: 15px;}
 .h_20 {
 	height: 20px;
 }
@@ -512,7 +513,7 @@ body a:hover {
 .BG {
 	background: rgb(255, 0, 0);
 }
-div#footer {
+/*div#footer {
   height: 100px;
   background-color: #515666;
   margin-bottom: 0px;
@@ -524,5 +525,5 @@ div#footer a {
   font-size: 14px;
   display: inline-block;
   padding: 10px;
-  color: #A8ABB3;
+  color: #A8ABB3;*/
 }

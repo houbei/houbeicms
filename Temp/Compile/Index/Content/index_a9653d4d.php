@@ -68,15 +68,21 @@
         </div>
         <div class="HeaderCnt fr">
             <ul>
+                    <?php if(IS_LOGIN){ ?>
                 <li>
                     <div class="UseImg fl">
-                        <a href="#"><img style="width: 29px; height: 29px;" alt="" src="http://127.0.0.1/houbeicms/Static/images/avatar.gif" /></a>
+                        <a href="#"><img style="width: 29px; height: 29px;" alt="" src="<?php echo $hd['session']['user']['icon'];?>" /></a>
                     </div>
                     <div class="UseName fl">
-                        <a href="#" target="_blank"></a>
-                    </div></li>
-                <li><a  href="#">我的地盘</a> </li>
-                <li><a href="#">注销</a> </li>
+                        <a href="#" target="_blank"><?php echo $hd['session']['user']['username'];?></a>
+                    </div>
+                </li>
+                    <li><a  href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Index&a=index">会员中心</a> </li>
+                    <li><a href="http://127.0.0.1/houbeicms/index.php?m=Member&c=Login&a=out">注销</a> </li>
+                <?php }else{ ?>
+                    <a href="<?php echo U('Member/Login/login');?>" class="bt-primary top28">登录</a>
+                    <a href="<?php echo U('Member/Login/reg');?>" class="bt-default top28">注册</a>
+                <?php } ?>
             </ul>
         </div>
     </div>
@@ -262,7 +268,7 @@
             欢迎任何形式的转载，但请务必注明出处，尊重他人劳动共创后备网<br>
             转载请注明：文章转载自：<strong><?php echo $hd['config']['WEBNAME'];?></strong> [<a href="http://127.0.0.1">http://127.0.0.1</a>]<br>
             本文标题：<?php echo $hdcms['title'];?><br>
-            本文地址：<a href="http://127.0.0.1/houbeicms/index.php?m=Index&c=Content&a=index&cid=52&aid=10">http://127.0.0.1/houbeicms/index.php?m=Index&c=Content&a=index&cid=52&aid=10</a><br>
+            本文地址：<a href="http://127.0.0.1/houbeicms/index.php?m=Index&c=Content&a=index&cid=52&aid=12">http://127.0.0.1/houbeicms/index.php?m=Index&c=Content&a=index&cid=52&aid=12</a><br>
              </div>
 
         </div>
@@ -337,7 +343,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <a href="#" target="_blank">高端PHP培训</a>|
+                <a href="#" target="_blank">使用后备前必读</a>|
                 <a href="#" target="_blank">用户中心</a>|
                 <a href="http://127.0.0.1/houbeicms/index.php?g=Addon&m=Sitemap&c=Index&a=index">网站地图</a>
                 <br>
