@@ -13,27 +13,27 @@
 HOST = 'http://127.0.0.1';
 ROOT = 'http://127.0.0.1/houbeicms';
 WEB = 'http://127.0.0.1/houbeicms/index.php';
-URL = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyPassword&a=edit';
+URL = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyInfo&a=edit';
 APP = 'http://127.0.0.1/houbeicms/HDCMS';
 COMMON = 'http://127.0.0.1/houbeicms/HDCMS/Common';
 HDPHP = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP';
 HDPHP_DATA = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Data';
 HDPHP_EXTEND = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Extend';
 MODULE = 'http://127.0.0.1/houbeicms/index.php?m=Admin';
-CONTROLLER = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyPassword';
-ACTION = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyPassword&a=edit';
+CONTROLLER = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyInfo';
+ACTION = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyInfo&a=edit';
 STATIC = 'http://127.0.0.1/houbeicms/Static';
 HDPHP_TPL = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Lib/Tpl';
 VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View';
 PUBLIC = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public';
-CONTROLLER_VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/MyPassword';
+CONTROLLER_VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/MyInfo';
 HISTORY = 'http://127.0.0.1/houbeicms/index.php?m=Admin';
 </script>
     <link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public/common.css"/>
 </head>
 <body>
-<div class="hd-title-header">修改密码</div>
-<form onsubmit="return hd_submit(this,'http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyPassword&a=edit','http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyPassword&a=edit')" class="hd-form">
+<div class="hd-title-header">个人资料修改</div>
+<form onsubmit="return hd_submit(this,'http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyInfo&a=edit','http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyInfo&a=edit')">
     <table class="hd-table hd-table-form hd-form">
         <tr>
             <th class="hd-w100">管理员名称</th>
@@ -42,25 +42,32 @@ HISTORY = 'http://127.0.0.1/houbeicms/index.php?m=Admin';
             </td>
         </tr>
         <tr>
-            <th class="hd-w100">旧密码 <span class="star">*</span></th>
+            <th class="hd-w100">最后登录时间</th>
             <td>
-                <input type="password" name="old_password" class="hd-w200" required=""/>
+                <?php echo date("Y-m-d",$user['logintime']);?>
             </td>
         </tr>
         <tr>
-            <th class="hd-w100">新密码 <span class="star">*</span></th>
+            <th class="hd-w100">最后登录IP</th>
             <td>
-                <input type="password" name="password" class="hd-w200" required=""/>
+                <?php echo $user['lastip'];?>
             </td>
         </tr>
         <tr>
-            <th class="hd-w100">确认密码 <span class="star">*</span></th>
+            <th class="hd-w100">昵称</th>
             <td>
-                <input type="password" name="passwordc" class="hd-w200" required=""/>
+                <input type="text" name="nickname" class="hd-w200" value="<?php echo $user['nickname'];?>"/>
+            </td>
+        </tr>
+        <tr>
+            <th class="w100">邮箱</th>
+            <td>
+                <input type="text" name="email" class="hd-w200" value="<?php echo $user['email'];?>"/>
             </td>
         </tr>
     </table>
     <input type="submit" class="hd-btn" value="确定"/>
 </form>
+</div>
 </body>
 </html>

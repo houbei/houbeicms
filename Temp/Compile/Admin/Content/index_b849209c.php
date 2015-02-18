@@ -12,21 +12,21 @@
 HOST = 'http://127.0.0.1';
 ROOT = 'http://127.0.0.1/houbeicms';
 WEB = 'http://127.0.0.1/houbeicms/index.php';
-URL = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyPassword&a=edit';
-APP = 'http://127.0.0.1/houbeicms/HDCMS';
-COMMON = 'http://127.0.0.1/houbeicms/HDCMS/Common';
-HDPHP = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP';
-HDPHP_DATA = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Data';
-HDPHP_EXTEND = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Extend';
+URL = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content&a=index';
+APP = 'http://127.0.0.1/houbeicms/Core';
+COMMON = 'http://127.0.0.1/houbeicms/Core/Common';
+HDPHP = 'http://127.0.0.1/houbeicms/Core/HDPHP';
+HDPHP_DATA = 'http://127.0.0.1/houbeicms/Core/HDPHP/Data';
+HDPHP_EXTEND = 'http://127.0.0.1/houbeicms/Core/HDPHP/Extend';
 MODULE = 'http://127.0.0.1/houbeicms/index.php?m=Admin';
-CONTROLLER = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyPassword';
-ACTION = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=MyPassword&a=edit';
+CONTROLLER = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content';
+ACTION = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content&a=index';
 STATIC = 'http://127.0.0.1/houbeicms/Static';
-HDPHP_TPL = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Lib/Tpl';
-VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View';
-PUBLIC = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public';
-CONTROLLER_VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/MyPassword';
+HDPHP_TPL = 'http://127.0.0.1/houbeicms/Core/HDPHP/Lib/Tpl';
+VIEW = 'http://127.0.0.1/houbeicms/Core/Admin/View';
+PUBLIC = 'http://127.0.0.1/houbeicms/Core/Admin/View/Public';
+CONTROLLER_VIEW = 'http://127.0.0.1/houbeicms/Core/Admin/View/Content';
 HISTORY = 'http://127.0.0.1/houbeicms/index.php?m=Admin';
 </script>
-    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public/common.css"/>
+    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/Core/Admin/View/Public/common.css"/>
 </head>

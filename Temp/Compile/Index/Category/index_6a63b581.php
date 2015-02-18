@@ -45,15 +45,18 @@
         </div>
         <div class="HeaderCnt fr">
             <ul>
+                    <?php if(IS_LOGIN){ ?>
                 <li>
                     <div class="UseImg fl">
-                        <a href="#"><img style="width: 29px; height: 29px;" alt="" src="http://127.0.0.1/houbeicms/Static/images/avatar.gif" /></a>
+                        <a href="#"><img style="width: 29px; height: 29px;" alt="" src="<?php echo $hd['session']['user']['icon'];?>" /></a>
                     </div>
                     <div class="UseName fl">
                         <a href="#" target="_blank"></a>
-                    </div></li>
+                    </div>
+                </li>
                 <li><a  href="#">我的地盘</a> </li>
                 <li><a href="#">注销</a> </li>
+                <?php } ?>
             </ul>
         </div>
     </div>

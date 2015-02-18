@@ -26,7 +26,7 @@ HDPHP_TPL = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Lib/Tpl';
 VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View';
 PUBLIC = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public';
 CONTROLLER_VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Content';
-HISTORY = 'http://127.0.0.1/houbeicms/index.php?m=admin';
+HISTORY = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Index&a=index';
 </script>
     <link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public/common.css"/>
 </head>
