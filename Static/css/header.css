@@ -45,9 +45,10 @@
 }
 .SearchCnt {
 	margin:25px 30px;
+    overflow: hidden;
 }
 .Txt {
-	padding: 12.5px 5px; border: 1px solid rgb(228, 226, 226); border-image: none; width: 300px; height: 16px; _height: 19px;
+	padding: 12.5px 5px; border: 1px solid rgb(228, 226, 226); border-image: none; width: 300px; height: 16px; _height: 19px;overflow: hidden;
 }
 .Drop {
 	background: url("../../static/images/down_arr.png") no-repeat 45px rgb(255, 255, 255); border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(228, 226, 226) rgb(228, 226, 226) rgb(228, 226, 226) currentColor; padding: 12px 5px; border-image: none; width: 51px; height: 16px; color: rgb(142, 144, 142); position: relative; z-index: 10;

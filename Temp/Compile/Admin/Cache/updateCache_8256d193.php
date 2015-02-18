@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
 		<title>操作成功</title>
-		<link rel="stylesheet" type="text/css" href="http://127.0.0.1/houbeicms/HDCMS/HDPHP/Lib/Tpl/static/css.css"/>
+		<link rel="stylesheet" type="text/css" href="http://192.168.1.105/houbeicms/HDCMS/HDPHP/Lib/Tpl/static/css.css"/>
 	</head>
 	<body>
 		<div class="wrap">

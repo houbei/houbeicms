@@ -12,20 +12,20 @@
 HOST = 'http://192.168.1.105';
 ROOT = 'http://192.168.1.105/houbeicms';
 WEB = 'http://192.168.1.105/houbeicms/index.php';
-URL = 'http://192.168.1.105/houbeicms/index.php?m=Admin';
+URL = 'http://192.168.1.105/houbeicms/index.php?m=Admin&c=Cache&a=index';
 APP = 'http://192.168.1.105/houbeicms/HDCMS';
 COMMON = 'http://192.168.1.105/houbeicms/HDCMS/Common';
 HDPHP = 'http://192.168.1.105/houbeicms/HDCMS/HDPHP';
 HDPHP_DATA = 'http://192.168.1.105/houbeicms/HDCMS/HDPHP/Data';
 HDPHP_EXTEND = 'http://192.168.1.105/houbeicms/HDCMS/HDPHP/Extend';
 MODULE = 'http://192.168.1.105/houbeicms/index.php?m=Admin';
-CONTROLLER = 'http://192.168.1.105/houbeicms/index.php?m=Admin&c=Index';
-ACTION = 'http://192.168.1.105/houbeicms/index.php?m=Admin&c=Index&a=index';
+CONTROLLER = 'http://192.168.1.105/houbeicms/index.php?m=Admin&c=Cache';
+ACTION = 'http://192.168.1.105/houbeicms/index.php?m=Admin&c=Cache&a=index';
 STATIC = 'http://192.168.1.105/houbeicms/Static';
 HDPHP_TPL = 'http://192.168.1.105/houbeicms/HDCMS/HDPHP/Lib/Tpl';
 VIEW = 'http://192.168.1.105/houbeicms/HDCMS/Admin/View';
 PUBLIC = 'http://192.168.1.105/houbeicms/HDCMS/Admin/View/Public';
-CONTROLLER_VIEW = 'http://192.168.1.105/houbeicms/HDCMS/Admin/View/Index';
+CONTROLLER_VIEW = 'http://192.168.1.105/houbeicms/HDCMS/Admin/View/Cache';
 HISTORY = 'http://192.168.1.105/houbeicms/index.php?m=Admin&c=Cache&a=updateCache';
 </script>
     <link type="text/css" rel="stylesheet" href="http://192.168.1.105/houbeicms/HDCMS/Admin/View/Public/common.css"/>

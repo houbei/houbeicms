@@ -21,12 +21,13 @@ div#article-list div.position div.message {
 }
 div#article-list div.position div.search {
   float: right;
+    margin-top: 10px;
 }
 div#article-list div.position div.search input[type=text] {
   font-size: 14px;
   border: solid 1px #ccc;
   background: #f3f3f3;
-  width: 205px;
+  width: 215px;
   height: 30px;
   padding-left: 10px;
 }
@@ -62,7 +63,7 @@ div#article-list div.menu div.send a:hover {
   background: #226b93;
 }
 div#article-list div.menu dl dt {
-  border-top: solid 3px #226bb0;
+  border-top: solid 3px #40AA53;
   font-size: 16px;
   color: #999999;
   font-weight: normal;
@@ -94,7 +95,7 @@ div#article-list div.content {
 }
 div#article-list div.content div.list div.header {
   height: 35px;
-  border-top: solid 3px #226bb0;
+  border-top: solid 3px #40AA53;
   border-bottom: solid 1px #F3F3F3;
   background: #ffffff;
   text-indent: 20px;
@@ -171,4 +172,10 @@ div.copyright {
 }
 div.copyright a {
   color: #999;
+}
+/************
+* 以下css是为了修复文章列表页收索框的高度
+************/
+.Txt {
+    padding: 20.6px 5px; border: 1px solid rgb(228, 226, 226); border-image: none; width: 300px; height: 16px; _height: 19px;overflow: hidden;
 }
