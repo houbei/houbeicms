@@ -260,9 +260,9 @@
             <div class="copyright">
             本站文章除注明转载外，均为本站原创或编译<br>
             欢迎任何形式的转载，但请务必注明出处，尊重他人劳动共创后备网<br>
-            转载请注明：文章转载自：<strong>后备网</strong> [<a href="http://www.houbei.cc/">http://www.houbei.cc</a>]<br>
+            转载请注明：文章转载自：<strong><?php echo $hd['config']['WEBNAME'];?></strong> [<a href="http://127.0.0.1">http://127.0.0.1</a>]<br>
             本文标题：<?php echo $hdcms['title'];?><br>
-            本文地址：<a href="http://127.0.0.1/houbeicms/index.php?m=Index&c=Content&a=index&cid=4&aid=1">http://127.0.0.1/houbeicms/index.php?m=Index&c=Content&a=index&cid=4&aid=1</a><br>
+            本文地址：<a href="http://127.0.0.1/houbeicms/index.php?m=Index&c=Content&a=index&cid=52&aid=10">http://127.0.0.1/houbeicms/index.php?m=Index&c=Content&a=index&cid=52&aid=10</a><br>
              </div>
 
         </div>

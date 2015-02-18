@@ -1,6 +1,6 @@
 <?php if (!defined('HDPHP_PATH')) exit; 
 return array (
-  'WATER_ON' => '1',
+  'WATER_ON' => '0',
   'WATER_TEXT' => 'acun.cc',
   'WATER_TEXT_SIZE' => '16',
   'WATER_TEXT_COLOR' => '#999999',

@@ -6,33 +6,33 @@
 <head>
     <meta charset="UTF-8">
     <title>HDCMS永久免费 - <?php echo $hd['config']['webname'];?> - by HDCMS</title>
-    <script type="text/javascript" src="http://127.0.0.1/Static/hdjs/jquery-1.8.2.min.js"></script>
-    <link rel="stylesheet" href="http://127.0.0.1/Static/hdjs/hdjs.css"/>
-    <script type="text/javascript" src="http://127.0.0.1/Static/hdjs/hdjs.min.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/hdjs/jquery-1.8.2.min.js"></script>
+    <link rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/hdjs/hdjs.css"/>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/hdjs/hdjs.min.js"></script>
     <script type='text/javascript'>
 HOST = 'http://127.0.0.1';
-ROOT = 'http://127.0.0.1';
-WEB = 'http://127.0.0.1/index.php';
-URL = 'http://127.0.0.1/index.php?m=Admin&c=Content&a=show&cid=52&mid=1';
-APP = 'http://127.0.0.1/HDCMS';
-COMMON = 'http://127.0.0.1/HDCMS/Common';
-HDPHP = 'http://127.0.0.1/HDCMS/HDPHP';
-HDPHP_DATA = 'http://127.0.0.1/HDCMS/HDPHP/Data';
-HDPHP_EXTEND = 'http://127.0.0.1/HDCMS/HDPHP/Extend';
-MODULE = 'http://127.0.0.1/index.php?m=Admin';
-CONTROLLER = 'http://127.0.0.1/index.php?m=Admin&c=Content';
-ACTION = 'http://127.0.0.1/index.php?m=Admin&c=Content&a=show';
-STATIC = 'http://127.0.0.1/Static';
-HDPHP_TPL = 'http://127.0.0.1/HDCMS/HDPHP/Lib/Tpl';
-VIEW = 'http://127.0.0.1/HDCMS/Admin/View';
-PUBLIC = 'http://127.0.0.1/HDCMS/Admin/View/Public';
-CONTROLLER_VIEW = 'http://127.0.0.1/HDCMS/Admin/View/Content';
-HISTORY = 'http://127.0.0.1/index.php?m=Admin&c=Content&a=index';
+ROOT = 'http://127.0.0.1/houbeicms';
+WEB = 'http://127.0.0.1/houbeicms/index.php';
+URL = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content&a=show&cid=52&mid=1';
+APP = 'http://127.0.0.1/houbeicms/HDCMS';
+COMMON = 'http://127.0.0.1/houbeicms/HDCMS/Common';
+HDPHP = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP';
+HDPHP_DATA = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Data';
+HDPHP_EXTEND = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Extend';
+MODULE = 'http://127.0.0.1/houbeicms/index.php?m=Admin';
+CONTROLLER = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content';
+ACTION = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content&a=show';
+STATIC = 'http://127.0.0.1/houbeicms/Static';
+HDPHP_TPL = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Lib/Tpl';
+VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View';
+PUBLIC = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public';
+CONTROLLER_VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Content';
+HISTORY = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content&a=index';
 </script>
-    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/HDCMS/Admin/View/Public/common.css"/>
+    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public/common.css"/>
 </head>
 	<body>
-    <script type="text/javascript" src="http://127.0.0.1/Static/cal/lhgcalendar.min.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/cal/lhgcalendar.min.js"></script>
 			<form class="hd-form" method="get">
 				<input type="hidden" name="m" value="<?php echo $hd['get']['m'];?>"/>
                 <input type="hidden" name="c" value="<?php echo $hd['get']['c'];?>"/>
@@ -267,7 +267,7 @@ HISTORY = 'http://127.0.0.1/index.php?m=Admin&c=Content&a=index';
                     return false;
                 }
                 var data = $("input[type='text']").serialize();
-                hd_ajax(CONTROLLER + "&a=order&mid="+mid+"&cid=" + cid, data,'http://127.0.0.1/index.php?m=Admin&c=Content&a=show&cid=52&mid=1');
+                hd_ajax(CONTROLLER + "&a=order&mid="+mid+"&cid=" + cid, data,'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content&a=show&cid=52&mid=1');
             }
             /**
              * 删除单一文章
@@ -288,7 +288,7 @@ HISTORY = 'http://127.0.0.1/index.php?m=Admin&c=Content&a=index';
                     shade: true,//背景遮罩
                     shadeOpacity: 0.1,//背景透明度
                     success: function () {//点击确定后的事件
-                        hd_ajax('<?php echo U("del");?>', {mid:mid,cid:cid,aid: aid}, 'http://127.0.0.1/index.php?m=Admin&c=Content&a=show&cid=52&mid=1');
+                        hd_ajax('<?php echo U("del");?>', {mid:mid,cid:cid,aid: aid}, 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content&a=show&cid=52&mid=1');
                     },
                     cancel: function () {//点击关闭后的事件
 
@@ -312,7 +312,7 @@ HISTORY = 'http://127.0.0.1/index.php?m=Admin&c=Content&a=index';
                     shade: true,//背景遮罩
                     shadeOpacity: 0.1,//背景透明度
                     success: function () {//点击确定后的事件
-                        hd_ajax('<?php echo U("batchDel",array("mid"=>$_GET['mid'],"cid"=>$_GET["cid"]));?>', aid, 'http://127.0.0.1/index.php?m=Admin&c=Content&a=show&cid=52&mid=1');
+                        hd_ajax('<?php echo U("batchDel",array("mid"=>$_GET['mid'],"cid"=>$_GET["cid"]));?>', aid, 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content&a=show&cid=52&mid=1');
                     }
                 });
             }
@@ -323,7 +323,7 @@ HISTORY = 'http://127.0.0.1/index.php?m=Admin&c=Content&a=index';
                 var url = CONTROLLER + "&a=audit" + "&status=" + status + "&mid="+mid+"&cid=" + cid;
                 var aid=$("input[name*=aid]:checked").serialize();
                 if (aid) {
-                    hd_ajax(url, aid, 'http://127.0.0.1/index.php?m=Admin&c=Content&a=show&cid=52&mid=1',1);
+                    hd_ajax(url, aid, 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content&a=show&cid=52&mid=1',1);
                 } else {
                     hd_alert({
                         message: '请选择文章',//显示内容

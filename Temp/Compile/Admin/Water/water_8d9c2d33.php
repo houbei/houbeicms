@@ -12,21 +12,21 @@
 HOST = 'http://127.0.0.1';
 ROOT = 'http://127.0.0.1/houbeicms';
 WEB = 'http://127.0.0.1/houbeicms/index.php';
-URL = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Index&a=welcome';
+URL = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Water&a=water';
 APP = 'http://127.0.0.1/houbeicms/HDCMS';
 COMMON = 'http://127.0.0.1/houbeicms/HDCMS/Common';
 HDPHP = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP';
 HDPHP_DATA = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Data';
 HDPHP_EXTEND = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Extend';
 MODULE = 'http://127.0.0.1/houbeicms/index.php?m=Admin';
-CONTROLLER = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Index';
-ACTION = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Index&a=welcome';
+CONTROLLER = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Water';
+ACTION = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Water&a=water';
 STATIC = 'http://127.0.0.1/houbeicms/Static';
 HDPHP_TPL = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Lib/Tpl';
 VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View';
 PUBLIC = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public';
-CONTROLLER_VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Index';
-HISTORY = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content&a=index';
+CONTROLLER_VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Water';
+HISTORY = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Water&a=water';
 </script>
     <link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public/common.css"/>
 </head>

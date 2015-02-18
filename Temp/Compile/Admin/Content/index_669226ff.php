@@ -6,30 +6,30 @@
 <head>
     <meta charset="UTF-8">
     <title>HDCMS永久免费 - <?php echo $hd['config']['webname'];?> - by HDCMS</title>
-    <script type="text/javascript" src="http://127.0.0.1/Static/hdjs/jquery-1.8.2.min.js"></script>
-    <link rel="stylesheet" href="http://127.0.0.1/Static/hdjs/hdjs.css"/>
-    <script type="text/javascript" src="http://127.0.0.1/Static/hdjs/hdjs.min.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/hdjs/jquery-1.8.2.min.js"></script>
+    <link rel="stylesheet" href="http://127.0.0.1/houbeicms/Static/hdjs/hdjs.css"/>
+    <script type="text/javascript" src="http://127.0.0.1/houbeicms/Static/hdjs/hdjs.min.js"></script>
     <script type='text/javascript'>
 HOST = 'http://127.0.0.1';
-ROOT = 'http://127.0.0.1';
-WEB = 'http://127.0.0.1/index.php';
-URL = 'http://127.0.0.1/index.php?m=Admin&c=Content&a=index';
-APP = 'http://127.0.0.1/HDCMS';
-COMMON = 'http://127.0.0.1/HDCMS/Common';
-HDPHP = 'http://127.0.0.1/HDCMS/HDPHP';
-HDPHP_DATA = 'http://127.0.0.1/HDCMS/HDPHP/Data';
-HDPHP_EXTEND = 'http://127.0.0.1/HDCMS/HDPHP/Extend';
-MODULE = 'http://127.0.0.1/index.php?m=Admin';
-CONTROLLER = 'http://127.0.0.1/index.php?m=Admin&c=Content';
-ACTION = 'http://127.0.0.1/index.php?m=Admin&c=Content&a=index';
-STATIC = 'http://127.0.0.1/Static';
-HDPHP_TPL = 'http://127.0.0.1/HDCMS/HDPHP/Lib/Tpl';
-VIEW = 'http://127.0.0.1/HDCMS/Admin/View';
-PUBLIC = 'http://127.0.0.1/HDCMS/Admin/View/Public';
-CONTROLLER_VIEW = 'http://127.0.0.1/HDCMS/Admin/View/Content';
-HISTORY = 'http://127.0.0.1/index.php?m=admin';
+ROOT = 'http://127.0.0.1/houbeicms';
+WEB = 'http://127.0.0.1/houbeicms/index.php';
+URL = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content&a=index';
+APP = 'http://127.0.0.1/houbeicms/HDCMS';
+COMMON = 'http://127.0.0.1/houbeicms/HDCMS/Common';
+HDPHP = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP';
+HDPHP_DATA = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Data';
+HDPHP_EXTEND = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Extend';
+MODULE = 'http://127.0.0.1/houbeicms/index.php?m=Admin';
+CONTROLLER = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content';
+ACTION = 'http://127.0.0.1/houbeicms/index.php?m=Admin&c=Content&a=index';
+STATIC = 'http://127.0.0.1/houbeicms/Static';
+HDPHP_TPL = 'http://127.0.0.1/houbeicms/HDCMS/HDPHP/Lib/Tpl';
+VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View';
+PUBLIC = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public';
+CONTROLLER_VIEW = 'http://127.0.0.1/houbeicms/HDCMS/Admin/View/Content';
+HISTORY = 'http://127.0.0.1/houbeicms/index.php?m=admin';
 </script>
-    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/HDCMS/Admin/View/Public/common.css"/>
+    <link type="text/css" rel="stylesheet" href="http://127.0.0.1/houbeicms/HDCMS/Admin/View/Public/common.css"/>
 </head>
 <body>
     <div id="category_tree">
@@ -45,8 +45,8 @@ HISTORY = 'http://127.0.0.1/index.php?m=admin';
     <div id="content">
         <iframe src="<?php echo U('Index/welcome');?>" name="content" scrolling="auto" frameborder="0" style="height:100%;width: 100%;"></iframe>
     </div>
-<link rel="stylesheet" href="http://127.0.0.1/HDCMS/Admin/View/Content/ztree/css/zTreeStyle/zTreeStyle.css" type="text/css">
-<script type="text/javascript" src="http://127.0.0.1/HDCMS/Admin/View/Content/ztree/js/jquery.ztree.all-3.5.min.js"></script>
+<link rel="stylesheet" href="http://127.0.0.1/houbeicms/HDCMS/Admin/View/Content/ztree/css/zTreeStyle/zTreeStyle.css" type="text/css">
+<script type="text/javascript" src="http://127.0.0.1/houbeicms/HDCMS/Admin/View/Content/ztree/js/jquery.ztree.all-3.5.min.js"></script>
 <style type="text/css">
     div#category_tree{
         font-size:12px;
@@ -91,12 +91,12 @@ HISTORY = 'http://127.0.0.1/index.php?m=admin';
     }
 
     div#move span.left {
-        background: url("http://127.0.0.1/HDCMS/Admin/View/Content/img/ico_left.gif") no-repeat;
+        background: url("http://127.0.0.1/houbeicms/HDCMS/Admin/View/Content/img/ico_left.gif") no-repeat;
         left: -10px;
     }
 
     div#move span.right {
-        background: url("http://127.0.0.1/HDCMS/Admin/View/Content/img/ico_right.gif") no-repeat;
+        background: url("http://127.0.0.1/houbeicms/HDCMS/Admin/View/Content/img/ico_right.gif") no-repeat;
         left: 5px;
     }
     div.wrap{margin-bottom: 0px;}
@@ -117,7 +117,7 @@ HISTORY = 'http://127.0.0.1/index.php?m=admin';
 
     #tree_title span {
         display: block;
-        background: url("http://127.0.0.1/HDCMS/Admin/View/Content/ztree/css/zTreeStyle/img/diy/1_open.png");
+        background: url("http://127.0.0.1/houbeicms/HDCMS/Admin/View/Content/ztree/css/zTreeStyle/img/diy/1_open.png");
         width: 15px;
         height: 15px;
         float: left;
