@@ -18,11 +18,13 @@ a {
 }
 a.bt-primary {
   display: block;
-  background: #599EF4;
+    background: none repeat scroll 0% 0% #40AA53;
+ /* background: #599EF4;*/
   float: right;
   color: #FFFFFF;
   height: 35px;
-  border: 1px solid #2982F1;
+  /*border: 1px solid #2982F1;*/
+    border: 1px solid #40AA53;
   padding: 0px 12px;
   font-size: 14px;
   line-height: 35px;
@@ -31,7 +33,8 @@ a.bt-primary {
   text-align: center;
 }
 a.bt-primary:hover {
-  background: #2982F1;
+  /*background: #2982F1;*/
+    background: #26BF41;
   color: #FFFFFF;
 }
 a.bt-default {

@@ -29,7 +29,7 @@
 	background: rgb(241, 240, 240); width: 130px; height: 40px; text-align: center; color: rgb(89, 89, 88); line-height: 40px; font-size: 14px; border-top-color: rgb(228, 226, 226); border-top-width: 5px; border-top-style: solid; float: left; display: inline-block;
 }
 .Ctil .active {
-	background: rgb(255, 255, 255); color: rgb(32, 204, 178); border-top-color: rgb(32, 204, 178); border-top-width: 5px; border-top-style: solid;
+	background: rgb(255, 255, 255); color: rgb(32, 204, 178); border-top-color:#40AA53; border-top-width: 5px; border-top-style: solid;
 }
 .Banner {
 	width:710px; height:336px; overflow: hidden; position: relative;background-color: #000099;

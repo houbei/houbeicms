@@ -78,7 +78,7 @@
 	position: relative; z-index: 1;width: 1000px;margin: 0px auto;
 }
 .Nav {
-	/*background: rgb(64, 65, 69);*/ height: 59px;background: url("../../static/images/nav.jpg") repeat-x;
+	/*background: rgb(64, 65, 69);*/ height: 59px;background: none repeat scroll 0% 0% #40AA53;/*background: url("../../static/images/nav.jpg") repeat-x;*/
 }
 .Nav ul {
 	margin-left: 0px;
